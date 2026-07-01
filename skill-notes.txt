@@ -1,0 +1,81 @@
+Codex Skills 记录
+=================
+
+1. ui-ux-pro-max
+用途：
+- UI/UX 设计智能库。
+- 适合页面设计、组件设计、配色、字体、排版、响应式布局、可访问性、图表、表单、导航、交互状态等任务。
+- 常用于网站、落地页、后台 dashboard、SaaS、移动端页面、电商页面等。
+
+用法示例：
+- 用 ui-ux-pro-max 帮我设计一个 SaaS landing page
+- 用 ui-ux-pro-max review 当前页面的 UI/UX
+- 用 ui-ux-pro-max 优化这个 dashboard 的配色和布局
+
+
+2. impeccable
+用途：
+- 高级前端设计打磨和审查工作流。
+- 适合设计、重设计、审查、精修、动效、排版、色彩、布局、可访问性、性能、响应式、UX copy、空状态、错误状态等。
+- 常用于把普通界面打磨到更专业、更完整、更接近上线质量。
+
+常见子命令：
+- audit：技术和体验审查
+- critique：设计评审
+- polish：上线前精修
+- layout：修布局、间距、视觉层级
+- colorize：增强色彩策略
+- typeset：优化字体和排版
+- animate：添加有意义的动效
+- bolder：让设计更大胆
+- quieter：让设计更克制
+
+用法示例：
+- 用 impeccable audit 当前页面
+- 用 impeccable polish 首页
+- 用 impeccable layout 修一下这个页面的间距
+- 用 impeccable animate 给这个组件加一点高级动效
+
+
+3. react-bits
+用途：
+- 用于查找和集成 ReactBits.dev 的 React 动效组件。
+- 适合添加文字动画、背景动画、按钮动画、加载动画、交互卡片、视觉特效等。
+- 主要用于 React / Next.js 项目。
+
+注意：
+- 这个 skill 依赖 ReactBits MCP 工具。
+- 如果 Codex 重启后没有出现 reactbits 相关 MCP 工具，需要额外配置对应 MCP。
+
+用法示例：
+- 用 react-bits 给首页加一个高级背景动画
+- 用 react-bits 找几个适合科技风 landing page 的文字动画
+- 用 react-bits 添加一个 animated button 到这个 React 项目
+
+
+4. karpathy
+用途：
+- 编码行为和工程习惯约束类 skill。
+- 目标是减少 LLM 写代码时常见的问题：过度设计、乱改无关代码、隐藏假设、没有验证标准等。
+- 适合修 bug、review、重构、实现功能时保持改动克制、清晰、可验证。
+
+核心原则：
+- 写代码前明确假设和成功标准。
+- 优先简单方案，不做没要求的抽象和扩展。
+- 只改和任务直接相关的代码。
+- 用测试、构建、lint 或手动验证确认结果。
+
+用法示例：
+- 用 karpathy 风格修这个 bug，保持改动最小
+- 用 karpathy review 这次改动有没有过度设计
+- 按 karpathy guidelines 重构这个组件
+
+
+推荐组合
+========
+
+- 做 UI 页面：ui-ux-pro-max + impeccable
+- 做页面精修：impeccable polish / layout / colorize
+- 加 React 动效：react-bits
+- 写代码想更稳、更克制：karpathy
+- 做完整前端页面：ui-ux-pro-max + impeccable + react-bits + karpathy

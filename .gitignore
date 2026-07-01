@@ -1,0 +1,8 @@
+node_modules/
+uploads/
+mysql-dev/data/
+.env
+__pycache__/
+.admin-credentials.txt
+*.log
+tmp/
